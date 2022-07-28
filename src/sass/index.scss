@@ -1,0 +1,150 @@
+@import "mixins";
+
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	font-family: "Lato", sans-serif;
+}
+body {
+	margin: 0;
+	font-size: 16px;
+	background: linear-gradient(90deg, #74ebd5 0%, #9face6 100%);
+}
+.container {
+	width: 100vw;
+	height: 100vh;
+	@include flex-centered(column);
+}
+.quiz-container {
+	min-width: 750px;
+	max-width: 1000px;
+	background-color: #fff;
+	border-radius: 80px;
+	@include flex-centered(column);
+	padding: 40px;
+}
+.question-text {
+	max-width: 600px;
+	word-break: break-word;
+	word-wrap: break-word;
+	padding: 25px;
+	text-align: center;
+	font-size: 1.6rem;
+	margin: 0;
+}
+.anwsers-container {
+	padding: 30px;
+	@include flex-centered(column);
+}
+.anwser {
+	text-align: center;
+	padding: 20px;
+	width: 450px;
+	font-size: 1.2rem;
+	border-radius: 25px;
+	transition: all 0.2s ease-in-out;
+	cursor: pointer;
+	border: 1px solid #222;
+	margin: 5px;
+	&:hover {
+		background-color: #ddd;
+	}
+}
+.start-game {
+	width: 100vw;
+	height: 100vh;
+	background: linear-gradient(90deg, #74ebd5 0%, #9face6 100%);
+	position: fixed;
+	top: 0;
+	left: 0;
+	@include flex-centered(column);
+}
+.start-game-btn {
+	@extend .anwser;
+	background-color: #fff;
+}
+.category-container {
+	margin: 20px;
+	@include flex-centered(row);
+	flex-wrap: wrap;
+	max-width: 1000px;
+}
+.category {
+	@extend .anwser;
+	background-color: #fff;
+	width: 300px;
+	font-size: 1rem;
+}
+.numOfQuestionRemain {
+	margin-top: 10px;
+}
+.end-game-container {
+	width: 100vw;
+	height: 100vh;
+	background: linear-gradient(90deg, #74ebd5 0%, #9face6 100%);
+	position: fixed;
+	top: 0;
+	left: 0;
+	@include flex-centered(column);
+}
+.reload-btn {
+	@extend .anwser;
+	background-color: #fff;
+}
+.end-game-btn {
+	margin: 15px;
+	@extend .anwser;
+	background-color: #fff;
+	padding: 10px;
+	width: 150px;
+	font-size: 0.8rem;
+}
+// .image-container {
+// 	@include flex-centered();
+// }
+// .question-image {
+// 	margin: 0 20px;
+// 	width: 400px;
+// 	height: 400px;
+// 	border-radius: 30px;
+// 	cursor: pointer;
+// }
+@media (max-width: 768px) {
+	body {
+		background-color: fff;
+	}
+	.quiz-container {
+		min-width: 0;
+		width: 100vw;
+		height: 100vh;
+		background-color: #fff;
+		@include flex-centered(column);
+		padding: 0;
+		border-radius: 0;
+	}
+}
+@media (max-width: 600px) {
+	.question-text {
+		padding: 20px;
+		font-size: 1.2rem;
+		margin: 0;
+		max-width: 400px;
+	}
+	.anwsers-container {
+		padding: 30px;
+		@include flex-centered(column);
+	}
+	.anwser {
+		padding: 15px;
+		width: 300px;
+		font-size: 1rem;
+		margin: 5px;
+		&:hover {
+			background-color: #ddd;
+		}
+	}
+	.end-game-btn {
+		width: 150px;
+	}
+}

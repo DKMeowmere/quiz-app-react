@@ -1,0 +1,175 @@
+{
+	"categories": [
+		{
+			"id": "408bb0a3-c23b-433d-a1ea-9af08d361b7b",
+			"name": "Geografia",
+			"categoryData": [
+				{
+					"question": "4 pod względem wielkości stan USA to:",
+					"anwsers": [
+						{ "anwser": "Montana", "true": true },
+						{ "anwser": "Oregon", "true": false },
+						{ "anwser": "California", "true": false },
+						{ "anwser": "North Dakota", "true": false }
+					]
+				},
+				{
+					"question": "Liczba państw \"double landlocked\" to:",
+					"anwsers": [
+						{ "anwser": "2", "true": true },
+						{ "anwser": "1", "true": false },
+						{ "anwser": "3", "true": false },
+						{ "anwser": "4", "true": false }
+					]
+				},
+				{
+					"question": "Największe z tych państw to:",
+					"anwsers": [
+						{ "anwser": "Jemen", "true": true },
+						{ "anwser": "Papua Nowa Gwinea", "true": false },
+						{ "anwser": "Szwecja", "true": false },
+						{ "anwser": "Paragwaj", "true": false }
+					]
+				},
+				{
+					"question": "Liczba państw z którymi graniczy Togo to:",
+					"anwsers": [
+						{ "anwser": "3", "true": true },
+						{ "anwser": "0", "true": false },
+						{ "anwser": "2", "true": false },
+						{ "anwser": "5", "true": false }
+					]
+				},
+				{
+					"question": "Dżuba to stolica:",
+					"anwsers": [
+						{ "anwser": "Sudanu Południowego", "true": true },
+						{ "anwser": "Czadu", "true": false },
+						{ "anwser": "Beninu", "true": false },
+						{ "anwser": "Somalii", "true": false }
+					]
+				},
+				{
+					"question": "Białe klify Dover znajdują się w:",
+					"anwsers": [
+						{ "anwser": "Anglii", "true": true },
+						{ "anwser": "Irlandii", "true": false },
+						{ "anwser": "Szkocji", "true": false },
+						{ "anwser": "Walii", "true": false }
+					]
+				},
+				{
+					"question": "Powierzchnia Alp to:",
+					"anwsers": [
+						{ "anwser": "298 128 km²", "true": true },
+						{ "anwser": "350 545 km²", "true": false },
+						{ "anwser": "410 451 km²", "true": false },
+						{ "anwser": "312 780 km²", "true": false }
+					]
+				},
+				{
+					"question": "Język kataloński to oficjalny język:",
+					"anwsers": [
+						{ "anwser": "Andory", "true": true },
+						{ "anwser": "Monako", "true": false },
+						{ "anwser": "Portugalii", "true": false },
+						{ "anwser": "Hiszpanii", "true": false }
+					]
+				},
+				{
+					"question": "Największa z tych wysp to:",
+					"anwsers": [
+						{ "anwser": "Islandia", "true": true },
+						{ "anwser": "Irlandia", "true": false },
+						{ "anwser": "Nowa Szkocja", "true": false },
+						{ "anwser": "Cejlon", "true": false }
+					]
+				},
+				{
+					"question": "Patagonia to region w:",
+					"anwsers": [
+						{ "anwser": "Ameryce Południowej", "true": true },
+						{ "anwser": "Azji", "true": false },
+						{ "anwser": "Afryce", "true": false },
+						{ "anwser": "Ameryce Północnej", "true": false }
+					]
+				},
+				{
+					"question": "Francja nie graniczy z:",
+					"anwsers": [
+						{ "anwser": "Holandią", "true": true },
+						{ "anwser": "Luksemburgiem", "true": false },
+						{ "anwser": "Belgią", "true": false },
+						{ "anwser": "Szwajcarią", "true": false }
+					]
+				},
+				{
+					"question": "USA składa się z ? stanów:",
+					"anwsers": [
+						{ "anwser": "50", "true": true },
+						{ "anwser": "33", "true": false },
+						{ "anwser": "41", "true": false },
+						{ "anwser": "48", "true": false }
+					]
+				},
+				{
+					"question": "Do krajów skandynawskich nie należy:",
+					"anwsers": [
+						{ "anwser": "Finlandia", "true": true },
+						{ "anwser": "Dania", "true": false },
+						{ "anwser": "Norwegia", "true": false },
+						{ "anwser": "Islandia", "true": false }
+					]
+				}
+			]
+		},
+		{
+			"id": "794668ba-7529-4368-80a1-daaf9a15c361",
+			"name": "Wikingowie i mitologia nordycka",
+			"categoryData": [
+				{
+					"question": "Wikingowie nie dopłyneli do:",
+					"anwsers": [
+						{ "anwser": "Florydy", "true": true },
+						{ "anwser": "Islandii", "true": false },
+						{ "anwser": "Grendandii", "true": false },
+						{ "anwser": "Nowej Funlandii", "true": false }
+					]
+				},
+				{
+					"question": "Jak zginął Ragnar Lothbrok:",
+					"anwsers": [
+						{ "anwser": "Przez Jadowite węże", "true": true },
+						{ "anwser": "W walce", "true": false },
+						{ "anwser": "Przez tortury", "true": false },
+						{ "anwser": "Przez szczury", "true": false }
+					]
+				}
+			]
+		},
+		{
+			"id": "00c2e3a4-fb44-4c6e-936f-1f3892460c00",
+			"name": "Bałkany i rozpad Jugosławii",
+			"categoryData": [
+				{
+					"question": "Pierwszymi państwami które ogłosiły niepodległość od Jugosławii były:",
+					"anwsers": [
+						{ "anwser": "Chorwacja i Słowenia", "true": true },
+						{ "anwser": "Macedonia i Czarnogóra", "true": false },
+						{ "anwser": "Republika Serbska i Republika Serbskiej Krajiny", "true": false },
+						{ "anwser": "Kosowo i Albania", "true": false }
+					]
+				},
+				{
+					"question": "Nicola Tesla...",
+					"anwsers": [
+						{ "anwser": "Pochodził z Chorwacji i był Serbem", "true": true },
+						{ "anwser": "Pochodził z Chorwacji i był Chorwatem", "true": false },
+						{ "anwser": "Pochodził z Serbii i był Serbem", "true": false },
+						{ "anwser": "Pochodził z Serbii i był Chorwatem", "true": false }
+					]
+				}
+			]
+		}
+	]
+}
